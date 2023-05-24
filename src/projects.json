@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Tech Blog",
+        "github": "https://github.com/coclay1/14-Tech-Blog",
+        "image": "#"
+    },
+    {
+        "id": 2,
+        "name": "Weather API",
+        "github": "https://github.com/coclay1/06-Weather-API",
+        "image": "#"
+    },
+    {
+        "id": 3,
+        "name": "Petsagram",
+        "github": "https://github.com/coclay1/petstagram-project-2",
+        "image": "#"
+    },
+    {
+        "id": 4,
+        "name": "Work Day Scheduler",
+        "github": "https://github.com/coclay1/05-Work-Day-Scheduler",
+        "image": "#"
+    },
+    {
+        "id": 5,
+        "name": "JavaScript Quiz",
+        "github": "https://github.com/coclay1/04-JavaScript-Quiz",
+        "image": "#"
+    },
+    {
+        "id": 6,
+        "name": "Password Generator",
+        "github": "https://github.com/coclay1/03-Password-Generator",
+        "image": "#"
+    }
+
+]
