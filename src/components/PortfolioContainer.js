@@ -7,15 +7,20 @@ import Resume from './pages/Resume'
 import Footer from './Footer'
 import Header from './Header'
 
+const styles = {
+    display: 'flex',
+    justifyContent: 'space-between'
+}
+
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('About')
     const renderPage = () => {
         if (currentPage === 'About') {
             return <About />
         }
-        // if (currentPage === 'Contact') {
-        //     return <Contact />
-        // }
+        if (currentPage === 'Contact') {
+            return <Contact />
+        }
         if (currentPage === 'Portfolio') {
             return <Portfolio />
         }
@@ -27,9 +32,12 @@ export default function PortfolioContainer() {
 
     return (
         <div>
-            <Header >
-            </Header>
-            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+            <div style={styles} className="header">
+                <Header />
+                <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+            </div>
+
+
             {renderPage()}
 
             <Footer />
